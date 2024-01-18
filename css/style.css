@@ -1,0 +1,34 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  @media (min-width: 768px) {
+    body { text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+  
+    }
+  
+  body {
+    background-color: #342d32;
+  }
+  
+  .logo {
+  
+    width: 150px;
+    height: 150px;
+  
+   
+  }
+
+  #tip7-title { text-align: left; }
+
+#tip7-title b { display: block; margin-right: 80px; }
+
+#tip7-title span { float: right; }
