@@ -16,7 +16,7 @@
     }
   
   body {
-    background-color: #342d32;
+    background-color: #1d07160c;
   }
   
   .logo {
@@ -27,8 +27,20 @@
    
   }
 
-  #tip7-title { text-align: left; }
+  .parallax {
+    background-image: url("https://img.freepik.com/vecteurs-libre/vecteur-conception-cadre-malbouffe-vierge_53876-108748.jpg?size=626&ext=jpg&ga=GA1.2.535422432.1704270397&semt=ais");
 
-#tip7-title b { display: block; margin-right: 80px; }
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+    background-size: cover ; /* L'image prendra 100% de l'espace, quitte à la crop */
+    background-position: center; /* Centre la position de l'image */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+    background-color: black;
+    overflow: hidden;
+    
+  }
 
-#tip7-title span { float: right; }
+  #tip3-title { text-align: left; }
+
+#tip3-title b { display: block; margin-right: 80px; }
+
+#tip3-title span { float: right; }

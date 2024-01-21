@@ -1,18 +1,4 @@
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-   
-  }
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
 
   /* GLOBAL STYLES
   --------------------------------------------- */
@@ -24,6 +10,24 @@
     color: #5a5a5a;
   }
 
+
+  .parallax {
+    background-image: url("https://img.freepik.com/vecteurs-libre/vecteur-conception-cadre-malbouffe-vierge_53876-108748.jpg?size=626&ext=jpg&ga=GA1.2.535422432.1704270397&semt=ais");
+
+
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+    background-size: cover ; /* L'image prendra 100% de l'espace, quitte à la crop */
+    background-position: center; /* Centre la position de l'image */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter en fonction de la taille d'écran */
+    background-color: black;
+    overflow: hidden;
+    
+  }
+
+  .title {
+    text-decoration-line: 5%;
+    color: black;
+  }
 
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------- */
@@ -49,7 +53,7 @@
   .carousel-item>img {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20;
     height: 32rem;
   }
 
